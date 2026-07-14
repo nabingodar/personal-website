@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "starting-this-journal",
+    "title": "Starting This Journal",
+    "date": "2026-07-14",
+    "location": "Pokhara, Nepal",
+    "tags": ["reflection", "beginnings"],
+    "excerpt": "Why I'm finally putting the journey — and the questions that come with it — into writing.",
+    "coverImage": "images/blog/starting-journal.jpg",
+    "url": "blog/starting-this-journal.html"
+  },
+  {
+    "slug": "why-nepal-trades",
+    "title": "Why Nepal's Trade Story Matters to Me",
+    "date": "2026-06-02",
+    "location": "Pokhara, Nepal",
+    "tags": ["business", "nepal", "ideas"],
+    "excerpt": "A few thoughts on export promotion, and why I want to spend my career here.",
+    "coverImage": "images/blog/nepal-trade.jpg",
+    "url": "blog/why-nepal-trades.html"
+  },
+  {
+    "slug": "japan-lessons",
+    "title": "What Japan Taught Me About Starting Over",
+    "date": "2026-03-18",
+    "location": "Osaka, Japan",
+    "tags": ["japan", "travel", "reflection"],
+    "excerpt": "Independence looks different when nobody around you speaks your language yet.",
+    "coverImage": "images/blog/japan-lessons.jpg",
+    "url": "blog/japan-lessons.html"
+  }
+]

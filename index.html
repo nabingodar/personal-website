@@ -1,10 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nabin Godar — Journeys, Ideas &amp; Perspective</title>
+<meta name="description" content="Personal site of Nabin Godar — travel journal, ideas on business, technology and critical thinking, from Nepal to Japan to the UK." />
+<meta name="theme-color" content="#0e1220" />
+<link rel="preload" as="image" href="images/nabin.jpg" />
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>My name is [Your Name], and this is my brand new personal website.</p>
+
+<a href="#main" class="visually-hidden-focusable back-link" style="position:absolute;left:-999px;top:0;">Skip to content</a>
+
+<header class="site-header">
+  <a href="#home" class="logo">NABIN <span>GODAR</span></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" id="navToggle">Menu</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#journal">Journal</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <svg class="hero-contours" viewBox="0 0 1200 800" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-50,650 C150,600 300,680 500,630 C700,580 850,660 1250,600" />
+      <path d="M-50,600 C180,540 320,620 520,570 C720,520 860,600 1250,540" />
+      <path d="M-50,550 C200,480 340,560 540,510 C740,460 870,540 1250,480" />
+      <path d="M-50,500 C220,420 360,500 560,450 C760,400 880,480 1250,420" />
+      <path d="M-50,450 C240,360 380,440 580,390 C780,340 890,420 1250,360" />
+      <path d="M-50,400 C260,300 400,380 600,330 C800,280 900,360 1250,300" />
+      <path d="M-50,750 C150,710 300,770 500,730 C700,690 850,750 1250,700" />
+    </svg>
+    <div class="container hero-inner">
+      <span class="eyebrow">Business, Nepal → Japan → United Kingdom</span>
+      <h1>Nabin<span class="last">Godar</span></h1>
+      <p class="hero-tagline">Exploring countries, ideas, and the space between&nbsp;certainty and&nbsp;curiosity — one journey, one question at a time.</p>
+      <div class="hero-actions">
+        <a href="#journey" class="btn btn-primary">Explore My Journey</a>
+        <a href="#journal" class="btn btn-ghost">Read the Journal</a>
+      </div>
+    </div>
+    <div class="hero-coords">28.2096° N, 83.9856° E<br>Pokhara, Nepal</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-portrait reveal">
+        <img src="images/nabin.jpg" alt="Portrait of Nabin Godar" width="600" height="750" />
+      </div>
+      <div class="about-body reveal">
+        <span class="eyebrow">About</span>
+        <h2 style="margin-top:0.75rem; font-size:clamp(1.8rem,4vw,2.5rem);">A student of places, and of thinking itself.</h2>
+        <p>I'm <strong>Nabin Godar</strong>, originally from Pokhara, Nepal. My path has taken me from the hills of Nepal to Japan, and now toward the United Kingdom to study International Business Management — but the real journey has always been about how different places teach you to think differently.</p>
+        <p>I care about <strong>international trade and export promotion</strong>, especially opportunities for Nepal's economy, and I'm endlessly curious about <strong>technology, philosophy, and evidence-based reasoning</strong> — the kind of thinking that holds up under scrutiny, wherever it takes you.</p>
+        <p>This site is where I keep both halves of that: the record of where I've been, and the ideas I'm still working through.</p>
+        <div class="interest-tags">
+          <span>International Trade</span>
+          <span>Critical Thinking</span>
+          <span>Astronomy &amp; UAPs</span>
+          <span>Nepali Food Culture</span>
+          <span>NEPSE &amp; Markets</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY — trek elevation profile -->
+  <section id="journey">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">My Journey</span>
+        <h2>Four stops on the trail so far.</h2>
+      </div>
+
+      <div class="trek reveal">
+        <svg class="trek-line" viewBox="0 0 1000 140" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M20,110 L270,60 L520,90 L770,40 L980,70" />
+          <circle class="peak-dot" cx="20" cy="110" r="7" />
+          <circle class="peak-dot" cx="270" cy="60" r="7" />
+          <circle class="peak-dot" cx="520" cy="90" r="7" />
+          <circle class="peak-dot future" cx="770" cy="40" r="7" />
+        </svg>
+
+        <div class="trek-stops">
+          <div class="trek-stop">
+            <span class="stop-label">Chapter 01</span>
+            <div class="flag">🇳🇵</div>
+            <h3>Nepal</h3>
+            <p>Where it began — Pokhara's hills, a jungle at the edge of town, and the questions that started everything.</p>
+          </div>
+          <div class="trek-stop">
+            <span class="stop-label">Chapter 02</span>
+            <div class="flag">🇯🇵</div>
+            <h3>Japan</h3>
+            <p>More than an education — a lesson in resilience, independence, and what it means to build a life somewhere unfamiliar.</p>
+          </div>
+          <div class="trek-stop">
+            <span class="stop-label">Chapter 03</span>
+            <div class="flag">🇬🇧</div>
+            <h3>United Kingdom</h3>
+            <p>The next chapter — studying International Business Management, and getting closer to work in global trade.</p>
+          </div>
+          <div class="trek-stop">
+            <span class="stop-label">Chapter 04</span>
+            <div class="flag">🚀</div>
+            <h3>What's Next</h3>
+            <p>Trade, technology, and ideas worth building. This peak is still ahead — I'll update it as I get there.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNAL / BLOG preview -->
+  <section id="journal">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">The Journal</span>
+        <h2>Notes from the road, and from the page.</h2>
+      </div>
+      <div class="blog-grid" id="blogPreview">
+        <!-- populated by script.js from posts.json, falls back to static cards below -->
+      </div>
+      <div class="blog-more reveal">
+        <a href="blog/index.html" class="btn btn-ghost">Read All Entries</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Gallery</span>
+        <h2>Frames from along the way.</h2>
+      </div>
+      <div class="gallery-placeholder reveal">
+        <span class="eyebrow">Coming Soon</span>
+        <p style="margin:0;">The photo journal is being put together — check back soon, or follow the Journal above in the meantime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner reveal">
+      <h2>Let's talk trade, travel, or the nature of&nbsp;reality.</h2>
+      <div class="social-links">
+        <a href="mailto:swatantra.core@gmail.com">Email</a>
+        <a href="https://github.com/nabingodar" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  © 2026 Nabin Godar · Built with HTML, CSS &amp; JavaScript
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
